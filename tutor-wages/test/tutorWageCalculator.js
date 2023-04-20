@@ -31,8 +31,9 @@ function tutorWageCalculator(timesheet,level){
     let totalHoursWorked = 0;
     let totalEarnings = 0
     
-    // loops through the hours in the time sheet and sums them
+    // does a check for valid time sheets
     if(hours.length >= 5 && hours.length <= 7){
+        // loops through the hours in the time sheet and sums them
         for(let i = 0; i < hours.length; i++){
             totalHoursWorked += Number(hours[i]);
         }
