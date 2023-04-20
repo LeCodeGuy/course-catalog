@@ -11,8 +11,8 @@
     - use a for loop to loop through each item in the hours variable
     - add the value of the current item in the loop to the totalHoursWorked variable
         - NOTE: I will have to convert the value to an integer as the values in hours will be seen as string values
-    - use a switch or if condition for each level
-    - inside the relevant condition multiply the totalHoursWorked with the hourly rate for the level passed into the function
+    - use if condition for each level
+    - inside the relevant condition subtract the totalHoursWorked with 40 and then multiply the result with the hourly rate multiplies by the overtime rate for the level passed into the function
     
     - return the totalEarnings variable
 
