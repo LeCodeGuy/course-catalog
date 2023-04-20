@@ -1,10 +1,10 @@
 /* Navigation styles */
 .nav {
   background-color: bisque;
-  color:black;
+  color: black;
   display: flex;
   justify-content: space-between;
-  padding:1em;
+  padding: 1em;
 }
 
 .nav a {
@@ -14,6 +14,45 @@
 }
 
 /* Courses styles */
+.course {
+  height:5em;
+}
+.course-name,.course-price {
+  display: initial;
+}
+.course-details {
+  display: none;
+  padding-top: 10px;
+}
+.detailsBtn {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.detailsBtn:hover {
+  background-color: darkblue;
+}
+
+.course:hover .course-details {
+  display: block;
+}
+
+.course:hover .course-name {
+  display:none;
+}
+
+.course:hover .course-price {
+  display:none;
+}
 
 /* Testimonials styles */
 

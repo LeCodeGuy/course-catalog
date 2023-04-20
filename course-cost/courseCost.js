@@ -49,7 +49,7 @@ function courseCost(courseCode, startDateStr){
   
     return {
         status : "success",
-        code: "r1",
+        code: courseCode,
 	    description : course.courseName,
 	    cost : course.cost,
 	    discount, 
