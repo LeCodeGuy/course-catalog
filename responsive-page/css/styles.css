@@ -1,0 +1,33 @@
+/* Navigation styles */
+.nav {
+  background-color: bisque;
+  color:black;
+  display: flex;
+  justify-content: space-between;
+  padding:1em;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Courses styles */
+
+/* Testimonials styles */
+
+/* Footer styles */
+footer {
+  background-color: bisque;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  display: flex;
+}
+
+footer a {
+  /* color: white; */
+  text-decoration: none;
+  margin: 0 10px;
+}

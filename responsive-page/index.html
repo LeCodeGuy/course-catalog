@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imizamo Youth Programme</title>
+    <!-- Link css and simplegrid framework -->
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- link font awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- *Pseudo code START -->
+    <!--  There are 5 sections:
+        - Navigation section
+        - Intro section
+        - Course section
+            - A minimum of 6 courses
+            - add hover effect to reveal course information on the details button
+        -  Testimonial section
+            - A minimum on 3 testimonials
+        - Footer section
+        - Use SimpleGrid to create the layout
+        - All elements should display in a grid for larger screens(over 960px)
+        - For smaller screens keep the default layout with all the text and images below each other
+        ? Focus on layout and responsiveness.
+    <!-- *Pseudo code END -->
+
+    <!-- Navigation Section -->
+    <section class="nav">
+        <img class="logo" src="./images/logo.png" alt="company logo" width="50px">
+        <div class="nav-items">
+            <a href="" target="_blank">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+		
+    </section>
+    <!-- Main container -->
+    <div class="container">
+        <div class="row">
+            <!-- Introduction section -->
+            <div class="col-12 intro">
+                <h1>Welcome to the local bootcamp brought to you by Imizamo Youth Programme. Find out more about what we offer by looking at our courses below.</h1>
+            </div>
+        </div>
+        <!-- Courses section -->
+        <div class="row">
+            <section id="courses" class="courses">
+                <div class="col-12">
+                    <h2>Courses</h2>
+                </div>
+                <div class="col-2 ror">
+                    <h3>Ruby on Rails intro</h3>
+                    <p>R5675.00</p>
+                    <button>Details</button>
+                </div>
+                <div class="col-2 python">
+                    <h3>Python</h3>
+                    <p>R7850.00</p>
+                    <button>Details</button>
+                </div>
+                <div class="col-2 php">
+                    <h3>Intro to PHP course</h3>
+                    <p>R8990.00</p>
+                    <button>Details</button>
+                </div>
+                <div class="col-2 ror">
+                    <h3>Ruby on Rails intro</h3>
+                    <p>R5675.00</p>
+                    <button>Details</button>
+                </div>
+                <div class="col-2 python">
+                    <h3>Python</h3>
+                    <p>R7850.00</p>
+                    <button>Details</button>
+                </div>
+                <div class="col-2 php">
+                    <h3>Intro to PHP course</h3>
+                    <p>R8990.00</p>
+                    <button>Details</button>
+                </div>
+            </section>
+        </div>        
+        <!-- Testimonials section -->
+        <div class="row">
+            <section class="testimonials">
+                <div class="col-12">
+                    <h2>Testimonials</h2>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h3>Jake O'Sullivan</h3>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus dignissimos vitae optio iusto debitis.</span>
+            </div>
+            <div class="col-4">
+                <h3>Melisa Woods</h3>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet excepturi atque deserunt sunt nobis aut possimus at.</span>
+            </div>
+            <div class="col-4">
+                <h3>Steven Gregory</h3>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam deleniti explicabo mollitia officia reiciendis, quod porro.</span>
+            </div>
+        </div>
+    </div> 
+</body>
+<!-- footer -->
+<footer>
+    <img class="logo" src="./images/logo.png" alt="company logo" width="50px" height="50px">
+    <P>@2023 Imizamo Youth Programme. 1 mystreet, Cape Town</P>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+</footer>
+</html>
