@@ -14,9 +14,6 @@
 }
 
 /* Courses styles */
-.course {
-  height:5em;
-}
 .course-name,.course-price {
   display: initial;
 }
