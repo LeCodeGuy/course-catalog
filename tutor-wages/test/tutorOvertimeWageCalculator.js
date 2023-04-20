@@ -44,14 +44,14 @@
                 if(totalHoursWorked > 40){
                     // checks the level passed and multiplies the hours worked with the relevant rate
                     if(level === 1){
-                        totalEarnings = totalHoursWorked * (75 * 1.07);
+                        totalEarnings = (totalHoursWorked-40) * (75 * 1.07);
                         console.log(totalEarnings);
                     }
                     else if(level === 2){
-                        totalEarnings = totalHoursWorked * (90 * 1.09);
+                        totalEarnings = (totalHoursWorked-40) * (90 * 1.09);
                     }
                     else if(level === 3){
-                        totalEarnings = totalHoursWorked * (105 * 1.12);
+                        totalEarnings = (totalHoursWorked-40) * (105 * 1.12);
                     }
                     
                     // returns the totalEarnings
